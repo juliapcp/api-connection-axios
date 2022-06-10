@@ -1,10 +1,10 @@
 const { Router } = require('express');
-const PersonagemController = require('../controllers/personagem-controller');
+const {PersonagemController} = require('../controllers/personagem-controller');
+
+const personagem_Controller = new PersonagemController();
 
 const routes = Router();
 
-const personagemController = new PersonagemController();
-
-routes.get('/buscar', personagemController.login);
+routes.post('/buscar', personagem_Controller.buscarPersonagem);
 
 module.exports = routes;
