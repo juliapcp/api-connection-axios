@@ -1,5 +1,5 @@
 {
-  "name": "semana15",
+  "name": "api-connection-axios",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Julia Pontes Cardoso Pereira",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
