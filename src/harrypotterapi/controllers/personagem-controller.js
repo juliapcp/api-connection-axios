@@ -1,0 +1,6 @@
+class PersonagemController {
+    async buscarPersonagem(){
+        
+    }
+
+}
