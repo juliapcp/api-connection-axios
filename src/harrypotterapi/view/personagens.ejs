@@ -7,8 +7,11 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Estudantes encontrados</h1>
     <% personagens.forEach(personagem=> { %>
-
+        <li><%=personagem.name %> da casa <a href="/casa/estudantes/<%=personagem.house.toLowerCase() %>"><%=personagem.house %></a></li>
     <% }) %>
+
+        <p><a href="/index.html">Voltar à página Inicial</a></p>
 </body>
 </html>
